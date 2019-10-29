@@ -16,6 +16,6 @@ function parar(musica){
 
 function retardocat(){
          mostrar('cat');sonar('meowo');
-         setTimeout("ocultar('cat')",3000);
+         setTimeout("ocultar('cat')",1000);
      }
 
