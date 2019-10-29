@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Room</title>
+  <!--This experience isn't responsive, it should be played on a desktop device-->
+<link href="styles/halloween.css" rel="stylesheet">
+
+<script src="/javascripts/visibilidadysonido.js">
+</script>
+
+
+</head>
+<body>
+  <div id ="wrapper">
+    <h1 id="titulo">UNKNOWN ROOM</h1>
+    <p id="p1">I'VE ENTERED A HOUSE,<br>
+      IT'S REALLY DARK, BUT I'M CURIOUS,<br>
+      I'M GOING TO EXPLORE IT...</p>
+    <p id="pcat">
+      I'M A BIT SCARED, <br>
+      SHOULD I TURN ON THE LIGHT?. <br>
+    </p>
+    <div id="buttongato" onclick="mostrar('cat');sonar('meowo');retardocat()"></div>
+    <img id="cat" src="images/cat.gif" height="300" width="300">
+
+
+
+
+  </div>
+  <audio id="meowo">
+      <source src="sounds/meow.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
