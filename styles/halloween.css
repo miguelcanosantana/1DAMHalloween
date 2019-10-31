@@ -26,14 +26,21 @@
           position: absolute;
           bottom: 0;
           right: 800px;
-
       }
       #pcat{color: rgb(168, 77, 82);
           position: absolute;
           bottom: 0;
-          right: 340px;
+          right: 360px;
 
       }
+      #finddisc{color: rgb(168, 77, 82);
+        position: absolute;
+        bottom: 0;
+        right: 800px;
+        visibility: hidden;
+        z-index: 2;
+
+    }
       #cat{position: absolute;
            top: 390px;
            right: 100px;
@@ -48,6 +55,14 @@
            z-index: 1;
   
           }
+      #cat_scare{color: rgb(168, 77, 82);
+          position: absolute;
+          bottom: 0;
+          right: 800px;
+          z-index: 2;
+          visibility: hidden;
+
+      }
 
       #buttongato{position: absolute;
                  /* border: 1px solid white; */
@@ -61,7 +76,27 @@
          width:400px;
          height: 385px;
          top: 300px;
-         right: 400px;
-         cursor: grab;
+         right: 392px;
          z-index: 5;
-}
+         visibility: hidden;
+      }
+      #disco{position: absolute;
+        width:600px;
+        height: 520px;
+        top: 225px;
+        right: 295px;
+        z-index: 5;
+        visibility: visible;
+        visibility: hidden;
+     }
+     #hoverdisco{position: absolute;
+       /**border: 1px solid white;*/
+       width: 60px;
+       height: 60px;
+       top: 500px;
+       right: 900px;
+       z-index: 5;
+       visibility: hidden;
+
+
+     }
