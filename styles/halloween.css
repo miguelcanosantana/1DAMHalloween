@@ -8,10 +8,11 @@
       #wrapper {background-image: url("../images/background-lights-off.jpg");
             background-repeat: no-repeat;
             width: 1100px;
-            height: 700px;
+            height: 733px;
             margin: 0px  auto; /* centers the wrapper*/
             position: relative;
             font-family: Depressed;
+            z-index: 0;
       }
       #titulo {color: rgba(219, 53, 103, 0.589);
                font-size: 3em;
@@ -19,6 +20,7 @@
                top: 10px;
                left: 30px;
                font-family: Depressed;
+               z-index: 2;
       }
       #p1{color: rgb(168, 77, 82);
           position: absolute;
@@ -36,8 +38,17 @@
            top: 390px;
            right: 100px;
            visibility: hidden;
+           z-index: 2;
+          }
+
+      #lights_on{position: absolute;
+           top: 0px;
+           right: 0px;
+           visibility: hidden;
+           z-index: 1;
   
           }
+
       #buttongato{position: absolute;
                  /* border: 1px solid white; */
                   width:160px;
@@ -45,5 +56,12 @@
                   top: 30px;
                   right: 520px;
                   cursor: grab;
-
       }
+      #tocadisco{position: absolute;
+         width:400px;
+         height: 385px;
+         top: 300px;
+         right: 400px;
+         cursor: grab;
+         z-index: 5;
+}

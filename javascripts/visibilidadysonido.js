@@ -14,6 +14,11 @@ function parar(musica){
   document.getElementById(musica).pause();
 }
 
+function cambiofondo(){
+  mostrar('lights_on');
+
+}
+
 function retardocat(){
          mostrar('cat');sonar('meowo');
          setTimeout("ocultar('cat')",1000);
