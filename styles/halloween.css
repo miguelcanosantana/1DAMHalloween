@@ -41,6 +41,22 @@
         z-index: 2;
 
     }
+    #putdisc{color: rgb(168, 77, 82);
+      position: absolute;
+      bottom: 0;
+      right: 800px;
+      visibility: hidden;
+      z-index: 2;
+
+  }
+  #listens{color: rgb(168, 77, 82);
+    position: absolute;
+    bottom: 0;
+    right: 800px;
+    visibility: hidden;
+    z-index: 2;
+
+}
       #cat{position: absolute;
            top: 390px;
            right: 100px;
@@ -55,6 +71,13 @@
            z-index: 1;
   
           }
+          #dark{position: absolute;
+            top: 0px;
+            right: 0px;
+            visibility: hidden;
+            z-index: 40;
+   
+           }
       #cat_scare{color: rgb(168, 77, 82);
           position: absolute;
           bottom: 0;
@@ -86,7 +109,6 @@
         top: 225px;
         right: 295px;
         z-index: 5;
-        visibility: visible;
         visibility: hidden;
      }
      #hoverdisco{position: absolute;
@@ -97,6 +119,12 @@
        right: 900px;
        z-index: 5;
        visibility: hidden;
-
-
      }
+     #cerrado{position: absolute;
+      width:400px;
+      height: 385px;
+      top: 300px;
+      right: 392px;
+      z-index: 5;
+      visibility: hidden;
+   }

@@ -7,6 +7,7 @@
   <title>Room</title>
   <!--This experience isn't responsive, it should be played on a desktop device-->
 <link href="styles/halloween.css" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="icon">
 
 <script src="javascripts/visibilidadysonido.js">
 </script>
@@ -38,6 +39,7 @@
     </p>
 <!--    Hacer esto   --> 
     <p id="putdisc">
+      I FOUND IT! <br>
       WHAT KIND OF MUSIC COULD THIS VINYL HAVE? <br>
       I'LL PUT IT IN THE TURNTABLE. <br>
     </p>
@@ -51,8 +53,10 @@
     <div id="hoverdisco" onmouseover="hover_disc_event('disco');"></div>
     <img id="cat" src="images/cat.gif" height="300" width="300">
     <img id="tocadisco" src="images/tocadisco.png">
+    <img id="cerrado" src="images/cerrado.png">
     <img id="disco" src="images/disk.gif">
     <img id="lights_on" src="images/background-lights-on.jpg" height="733" width="1100">
+    <img id="dark" src="images/dark.jpg" height="733" width="1100">
 
 
 
@@ -61,6 +65,16 @@
   </div>
   <audio id="meowo">
       <source src="sounds/meow.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <audio id="music">
+      <source src="sounds/vinyl.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+    <audio id="susto">
+      <source src="sounds/scream.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
     </audio>
 </body>
